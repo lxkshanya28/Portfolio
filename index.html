@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="port.css">
+</head>
+<body>
+  <header>
+    <div class="profile-info">
+      <img src="C:\Users\Admin\OneDrive\Desktop\Devminds\.vscode\IMG_20201031_145847_852.jpg" alt="Profile Picture">
+      <span>Lakshanya</span>
+    </div>
+    <nav>
+      <a href="#home"><i class="fas fa-home"></i> Home</a>
+      <a href="#services"><i class="fas fa-briefcase"></i> Services</a>
+      <a href="#projects"><i class="fas fa-th-large"></i> Projects</a>
+      <a href="#contact"><i class="fas fa-phone"></i> Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero" id="home">
+    <img src="C:\Users\Admin\OneDrive\Desktop\Devminds\.vscode\IMG_20201031_145847_852.jpg" alt="Profile Picture">
+    <h1>Hi, I'm Lakshanya</h1>
+    <p>A passionate Web Developer & FullStack Developer</p>
+    </section>
+
+    <section class="services-section" id="services">
+        <h2>My Services</h2>
+        <div class="services-columns">
+          <div class="service-box">
+            <h3>Web Development</h3>
+            <p>Building modern, responsive websites using HTML, CSS, JavaScript, and frameworks.</p>
+          </div>
+          <div class="service-box">
+            <h3>UI/UX Design</h3>
+            <p>Designing intuitive and beautiful user interfaces with a focus on usability.</p>
+          </div>
+          <div class="service-box">
+            <h3>Backend Integration</h3>
+            <p>Connecting frontend to backend APIs and databases for dynamic functionality.</p>
+          </div>
+          <div class="service-box">
+            <h3>AI Solutions</h3>
+            <p>Implementing intelligent features like chatbots, recommendations, and analytics.</p>
+          </div>
+        </div>
+      </section>
+      <section class="contact-section" id="contact">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+      
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+      
+          <div class="form-group">
+            <label for="number">Phone Number</label>
+            <input type="tel" id="number" name="number" required>
+          </div>
+      
+          <div class="form-group">
+            <label for="comments">Comments</label>
+            <textarea id="comments" name="comments" rows="5" required></textarea>
+          </div>
+      
+          <button type="submit">submit</button>
+        </form>
+      </section>
+      
+    </body>
+    </html>
